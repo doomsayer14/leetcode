@@ -35,7 +35,8 @@ public class Main {
             }
         }
         return false;
-        // O(a * b)
+        // O(a * b) - Time Complexity
+        // O(1) - Space Complexity
     }
     
     public static boolean compareArraysHashTable(char[] a, char[] b) {
@@ -51,6 +52,7 @@ public class Main {
             }
         }
         return false;
-        // O(a + b)
+        // O(a + b) - Time Complexity
+        // O(a) - Space Complexity
     }
 }
